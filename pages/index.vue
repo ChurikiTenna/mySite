@@ -81,7 +81,7 @@ const tooltip = ref(false)
             />
             <Button
               size="lg"
-              text="💬 Messengerでお問合せ"
+              text="Messengerでお問合せ"
               type="secondary"
               class="font-extrabold"
               href="https://m.me/100018137401246"
@@ -103,18 +103,7 @@ const tooltip = ref(false)
     
   </PageWrapper>
   <PageWrapper class="flex-1 flex">
-    <!--<div class="background-overlay">
-      <div
-        class="absolute top-0 left-0 transform translate-x-64 translate-y-4 h-14 w-14 rounded-full bg-gray-900 dark:bg-white"
-      ></div>
-      <div
-        class="absolute hidden md:block top-0 left-0 transform translate-x-18 translate-y-20 h-28 w-28 rounded-full bg-blue-600 linear-wipe"
-      ></div>
-      <div
-        class="absolute hidden md:block bottom-0 right-0 transform -translate-x-4 -translate-y-40 h-16 w-16 rounded bg-purple-600 linear-wipe"
-      ></div>
-      <div class="absolute bottom-0 right-0 triangle-shape"></div>
-    </div>-->
+    
     <PageBody class="flex-1 flex">
       <PageSection class="flex-1 flex items-center">
 
@@ -151,7 +140,7 @@ const tooltip = ref(false)
             >
               <span><br><br>フリーランスを始めてから２０個以上のiOSアプリ開発に関わらせていただきました。
                 <br>ほとんどのアプリはデザイン、開発、公開まで全て1人で行っております。チームでの開発経験もあります。
-                <br>ありがたいことに個人のお客さまから企業様まで、幅広くのお客様にご好評をいただいています。
+                <br>ありがたいことに個人のお客さまから企業様まで、幅広いお客様にご好評をいただいています。
                 <br>2022年からは、AndroidとWebアプリもいくつか制作しています。
                 <br>実家で鶏を飼っているので鶏が好きです。
               </span>

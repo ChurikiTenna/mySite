@@ -13,12 +13,35 @@ const app = useState<IApp>('app')
         <div class="mb-1">
           {{ app.name }}
         </div>
-        <div class="text-xs text-gray-600 dark:text-gray-400">
-          <a
-            href="mailto:tenna.churiki@gmail.com"
-            >📮 メールでお問合せ</a
-          >
-        </div>
+        
+        <a
+          class="flex space-x-2 mt-4 justify-center md:justify-start"
+          href="mailto:tenna.churiki@gmail.com"
+        >
+          <div style="width: 19px; height: 19px; font-size:18px">📮</div>
+          <div class="text-s dark:text-gray-400">メールでお問合せ</div>
+        </a>
+
+        <a
+          class="flex space-x-2 mt-4 justify-center md:justify-start"
+          href="https://m.me/100018137401246"
+        >
+          <img style="width: 19px; height: 19px"
+                  src="assets/images/messenger.png"
+                  alt="icon">
+          <div class="text-s dark:text-gray-400">Messengerでお問合せ</div>
+        </a>
+
+        <a
+          class="flex space-x-2 mt-4 justify-center md:justify-start"
+          href="https://coconala.com/users/1899004/careers"
+        >
+          <img style="width: 19px; height: 19px"
+                  src="assets/images/coconala.png"
+                  alt="icon">
+          <div class="text-s dark:text-gray-400">ココナラからお問合せ</div>
+        </a>
+
       </div>
     </section>
   </footer>
