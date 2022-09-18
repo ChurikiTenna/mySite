@@ -30,13 +30,10 @@ const menus = computed((): IMenuItem[] => [
       <div
         class="text-white text-xs text-center py-1 px-4 lg:px-8 bg-primary-500 capitalize"
       >
-        <span class="mr-1">
-          {{ $t('banners.welcome', { app_name: app.name }) }}
-        </span>
         <Anchor
           class="underline font-bold"
-          :text="$t('others.learn_more')"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
+          :text="$t('banners.welcome', { app_name: app.name })"
+          href="mailto:tenna.churiki@gmail.com"
         />
       </div>
     </template>
