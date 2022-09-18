@@ -25,6 +25,11 @@ var appExamples = [
   icon: "assets/images/pixelGaka.png",
   description: "ドット絵が描けるiPad専用アプリ"
 },{
+  name: "Order-S",
+  url: "https://apps.apple.com/jp/app/order-s/id1641628209",
+  icon: "assets/images/orders.png",
+  description: "飲食店業務サポート。注文、お会計までこれひとつ！"
+},{
   name: "サウナセイカツ",
   url: "https://apps.apple.com/jp/app/サウナセイカツ/id1564730005",
   icon: "assets/images/saunaseikatsu.png",
@@ -45,6 +50,7 @@ var appExamples = [
   icon: "assets/images/iroasobi.png",
   description: "カラーピッカーや、色を使ったゲームが楽しめる有料アプリ"
 }]
+console.log("did.appExamples")
 </script>
 
 <template>
@@ -53,8 +59,8 @@ var appExamples = [
       <PageTitle :text="$t('pages.post.title')" class="capitalize" />
     </PageHeader>
     <PageBody>
-
-      <PageSection v-for="article in appExamples" :key="article._path">
+      <ContentList>
+      <PageSection v-for="article in appExamples" :key="article.name">
           <div
             class="block hover:no-underline p-6 flex space-x-6 rounded border border-gray-900/10 dark:border-gray-50/[0.2]"
           >
@@ -64,12 +70,10 @@ var appExamples = [
                 class="text-sm flex items-center justify-end space-x-1"
                 :href="`${article.url}`"
               >
-          <img
-          style="width: 80px; border-radius: 24%; margin: 10px;"
-            :src="`${article.icon}`"
-            alt="icon">
-          <!--<Gem class="absolute -top-64 -right-0" />-->
-            
+                <img
+                style="width: 80px; border-radius: 24%; margin: 10px;"
+                  :src="`${article.icon}`"
+                  alt="icon">
               </Anchor>
             </div>
             <div class="flex flex-col">
@@ -93,7 +97,7 @@ var appExamples = [
             </div>
           </div>
         </PageSection>
-
+      </ContentList>
     </PageBody>
   </PageWrapper>
 </template>

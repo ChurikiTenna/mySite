@@ -15,9 +15,9 @@ pages:
     description: これは空白のページです
     just_blank_page_with_title: タイトルのある空白のページ
   post:
-    nav: アプリ開発例
-    title: アプリ開発例
-    description: これはアプリ開発例ページです
+    nav: アプリ制作例
+    title: アプリ制作例
+    description: これはアプリ制作例ページです
   test:
     nav: テスト
     title: テスト

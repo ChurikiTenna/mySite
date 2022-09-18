@@ -34,6 +34,7 @@ const tooltip = ref(false)
 </script>
 
 <template>
+  <div class="default-layout">
   <PageWrapper class="flex-1 flex">
     <!--<div class="background-overlay">
       <div
@@ -172,6 +173,7 @@ const tooltip = ref(false)
     </PageBody>
     
   </PageWrapper>
+</div>
 </template>
 
 <style lang="scss">
