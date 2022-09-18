@@ -76,26 +76,38 @@ const copyBash = () => {
             >
               <span class="animated-text-fg">{{ item.text }}</span>
             </span>
+
+            <span
+              class="text-2xl xl:text-8xl 2xl:text-9xl block font-black uppercase"
+            >
+              <span>iOS・Andoird・Webアプリ開発エンジニア</span>
+            </span>
+            <span
+              class="text-1xl xl:text-8xl 2xl:text-9xl block font-black uppercase"
+            >
+              <span><br>作りたいアプリのイメージが固まっていなくても大丈夫です！大体の費用が知りたいなどでも、お気軽にご相談ください。</span>
+            </span>
           </h1>
           <div
             class="flex space-x-4 ml-4 mt-10 justify-center md:justify-start"
           >
-            <!--<Button
+            <Button
               size="lg"
-              text="Nuxt 3"
+              text="📮 メールでお問合せ"
               class="font-extrabold"
-              href="https://v3.nuxtjs.org"
+              href="mailto:tenna.churiki@gmail.com"
             />
             <Button
               size="lg"
-              text="Github"
+              text="💬 Messengerでお問合せ"
               type="secondary"
               class="font-extrabold"
-              href="https://github.com/viandwi24/nuxt3-awesome-starter"
-            />-->
+              href="https://m.me/100018137401246"
+            />
           </div>
         </div>
         <div class="hidden md:flex flex-1 justify-center items-end relative">
+          
           <Gem class="absolute -top-64 -right-0" />
             
         </div>

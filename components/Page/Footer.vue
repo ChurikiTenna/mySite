@@ -20,7 +20,7 @@ const app = useState<IApp>('app')
             <span class="text-center md:text-right">
               <a
                 href="https://apps.apple.com/jp/developer/tenna-churiki/id1501272326"
-                >📔 See all of my apps at AppStore -></a
+                >📔 iOSアプリの制作例を見る</a
               >
             </span>
           </div>

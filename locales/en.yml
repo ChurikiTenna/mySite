@@ -6,7 +6,7 @@ components:
     change_theme: change theme
 pages:
   index:
-    title: Web・モバイルアプリ開発[]承ります[]
+    title: アプリ開発[]ご相談ください[]
   404:
     title: page not found
   blank:
