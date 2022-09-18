@@ -120,4 +120,12 @@ export default defineNuxtConfig({
       theme: 'github-dark',
     },
   },
+
+  router: {
+    base: '/mySite/'
+  },
+
+  generate: {
+    dir: 'docs'
+  },
 })
