@@ -9,7 +9,7 @@ node_modules
 
 # build or generate
 .nuxt
-dist
+
 .output
 
 # IDE
