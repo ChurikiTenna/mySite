@@ -15,9 +15,9 @@ pages:
     description: これは空白のページです
     just_blank_page_with_title: タイトルのある空白のページ
   post:
-    nav: 役職
-    title: 役職
-    description: これは投稿ページです
+    nav: アプリ開発例
+    title: アプリ開発例
+    description: これはアプリ開発例ページです
   test:
     nav: テスト
     title: テスト
@@ -29,9 +29,9 @@ pages:
     identity: 身元
     full_name: フルネーム
   about:
-    nav: 入門
-    title: 入門
-    description: これは入門ページです
+    nav: About
+    title: About
+    description: Aboutのページです
   setting:
     nav: 設定
     title: 設定
