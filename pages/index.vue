@@ -31,19 +31,6 @@ const leadingsText = computed(() => [
 ])
 const tooltip = ref(false)
 
-// const
-const cancelTooltip = () => {
-  tooltip.value = false
-  const tt = document.querySelector('.tooltiptext')
-  if (tt) tt.innerHTML = `Copy to clipboard`
-}
-const copyBash = () => {
-  const bash = 'git clone https://github.com/viandwi24/nuxt3-awesome-starter'
-  navigator.clipboard.writeText(bash)
-  tooltip.value = true
-  const tt = document.querySelector('.tooltiptext')
-  if (tt) tt.innerHTML = `Copied!!!`
-}
 </script>
 
 <template>
@@ -107,12 +94,83 @@ const copyBash = () => {
           </div>
         </div>
         <div class="hidden md:flex flex-1 justify-center items-end relative">
-          
-          <Gem class="absolute -top-64 -right-0" />
+          <img class="fit-picture"
+          style="padding: 20%; border-radius: 50%"
+            src="https://scontent-nrt1-1.xx.fbcdn.net/v/t39.30808-6/280031172_1048686382412599_7960801700504288944_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=wT_7KjHpSREAX8-Uq9D&tn=qvlTBAi2ulBbP4C3&_nc_ht=scontent-nrt1-1.xx&oh=00_AT9sW-sUW5D_ryQhBEMJ8GsCHndsIiaJZCY7sLd2t8RSZw&oe=632B5B8E"
+            alt="icon">
+          <!--<Gem class="absolute -top-64 -right-0" />-->
             
         </div>
+        
       </PageSection>
+      
     </PageBody>
+    
+  </PageWrapper>
+  <PageWrapper class="flex-1 flex">
+    <!--<div class="background-overlay">
+      <div
+        class="absolute top-0 left-0 transform translate-x-64 translate-y-4 h-14 w-14 rounded-full bg-gray-900 dark:bg-white"
+      ></div>
+      <div
+        class="absolute hidden md:block top-0 left-0 transform translate-x-18 translate-y-20 h-28 w-28 rounded-full bg-blue-600 linear-wipe"
+      ></div>
+      <div
+        class="absolute hidden md:block bottom-0 right-0 transform -translate-x-4 -translate-y-40 h-16 w-16 rounded bg-purple-600 linear-wipe"
+      ></div>
+      <div class="absolute bottom-0 right-0 triangle-shape"></div>
+    </div>-->
+    <PageBody class="flex-1 flex">
+      <PageSection class="flex-1 flex items-center">
+
+        <div class="hidden md:flex flex-1 justify-center items-end relative">
+          <img class="fit-picture"
+          style="padding: 20%; border-radius: 50%"
+            src="assets/images/chicken.png"
+            alt="icon">
+          <!--<Gem class="absolute -top-64 -right-0" />-->
+            
+        </div>
+        
+        <div class="flex-1 md:w-2/3 flex flex-col z-10">
+          <h1 class="text-center md:text-left">
+            
+            <span
+              class="text-2xl xl:text-8xl 2xl:text-9xl block font-black uppercase"
+            >
+              <span>自己紹介</span>
+            </span>
+            <span
+              class="text-1xl xl:text-8xl 2xl:text-9xl block font-black uppercase"
+            >
+              <span><br>生年月日：1999/03/09</span>
+              <span><br>出身地：沖縄県</span>
+              <span><br>現住地：東京都</span>
+
+              <span><br><br>学歴<br>沖縄県立開邦高等学校　芸術科美術コース<br>シドニー工科大学　バイオメディカルサイエンス学科卒</span>
+              <span><br><br>職歴<br>2020年~ アプリ開発エンジニア（フリーランス）</span>
+
+            </span>
+            <span
+              class="text-1xl xl:text-8xl 2xl:text-9xl"
+            >
+              <span><br><br>フリーランスを始めてから２０個以上のiOSアプリ開発に関わらせていただきました。
+                <br>基本的にはアプリのデザイン、開発、公開まで全て1人で行っております。
+                <br>ありがたいことの個人のお客さまから企業様まで、幅広くのお客様にご好評をいただいています。
+                <br>2022年からは、AndroidとWebアプリもいくつか制作しています。
+                <br>実家で鶏を飼っているので鶏が好きです。
+              </span>
+            </span>
+          </h1>
+          <div
+            class="flex space-x-4 ml-4 mt-10 justify-center md:justify-start"
+          >
+          </div>
+        </div>
+      </PageSection>
+      
+    </PageBody>
+    
   </PageWrapper>
 </template>
 

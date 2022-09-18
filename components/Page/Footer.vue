@@ -14,17 +14,16 @@ const app = useState<IApp>('app')
           {{ app.name }}
         </div>
         <div class="text-xs text-gray-600 dark:text-gray-400">
-          <div
-            class="flex flex-col md:flex-row space-x-2 items-center md:float-right"
+          <a
+            href="mailto:tenna.churiki@gmail.com"
+            >📮 メールでお問合せ</a
           >
-            <span class="text-center md:text-right">
-              <a
-                href="https://apps.apple.com/jp/developer/tenna-churiki/id1501272326"
-                >📔 iOSアプリの制作例を見る</a
-              >
-            </span>
-          </div>
-          
+        </div>
+        <div class="text-xs text-gray-600 dark:text-gray-400">
+          <a
+            href="https://apps.apple.com/jp/developer/tenna-churiki/id1501272326"
+            >📱 iOSアプリの制作例を見る</a
+          >
         </div>
       </div>
     </section>

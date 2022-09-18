@@ -68,13 +68,6 @@ const menus = computed((): IMenuItem[] => [
         >
           <LanguageSwitcher />
           <ThemeSwitcher />
-          <Anchor
-            class="hover:no-underline hover:text-slate-900 hover:dark:text-white text-lg flex self-center items-center"
-            href="https://github.com/viandwi24/nuxt3-awesome-starter"
-            title="Github"
-          >
-            <IconMdi:github-face />
-          </Anchor>
         </div>
       </div>
     </template>
@@ -124,14 +117,6 @@ const menus = computed((): IMenuItem[] => [
             <LanguageSwitcher type="select-box" />
           </div>
         </ActionSheetBody>
-        <Button
-          type="secondary"
-          title="Github"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
-        >
-          <IconMdi:github-face />
-          <span class="ml-1">Github</span>
-        </Button>
         <Button
           text="Close"
           type="secondary"
