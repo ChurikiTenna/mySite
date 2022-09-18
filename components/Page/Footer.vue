@@ -19,12 +19,6 @@ const app = useState<IApp>('app')
             >📮 メールでお問合せ</a
           >
         </div>
-        <div class="text-xs text-gray-600 dark:text-gray-400">
-          <a
-            href="https://apps.apple.com/jp/developer/tenna-churiki/id1501272326"
-            >📱 iOSアプリの制作例を見る</a
-          >
-        </div>
       </div>
     </section>
   </footer>

@@ -36,12 +36,12 @@
           <div class="mt-2">
             <ThemeSwitcher type="select-box" />
           </div>
-          <div class="mt-6 text-sm font-bold capitalize">
+          <!--<div class="mt-6 text-sm font-bold capitalize">
             {{ $t('components.language_switcher.change_language') }}
           </div>
           <div class="mt-2">
             <LanguageSwitcher type="select-box" />
-          </div>
+          </div>-->
         </ActionSheetBody>
         <Button
           type="secondary"

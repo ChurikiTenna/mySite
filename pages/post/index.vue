@@ -98,6 +98,13 @@ console.log("did.appExamples")
           </div>
         </PageSection>
       </ContentList>
+      <Button
+          style="margin-left: 20%; margin-right: 20%;"
+          size="lg"
+          text="📱 AppStoreでもっと見る"
+          class="font-extrabold"
+          href="https://apps.apple.com/jp/developer/tenna-churiki/id1501272326"
+        />
     </PageBody>
   </PageWrapper>
 </template>
