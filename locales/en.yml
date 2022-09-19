@@ -15,9 +15,9 @@ pages:
     description: this is a blank page
     just_blank_page_with_title: just blank page with title
   post:
-    nav: post
-    title: post
-    description: this is a post page
+    nav: Works
+    title: Works
+    description: this is a works page
   test:
     nav: test
     title: testing
@@ -64,7 +64,7 @@ pages:
       nav: home
       title: home
 banners:
-  welcome: hello, welcome to %{app_name}!
+  welcome: Contact me!
 others:
   learn_more: learn more
   copy: copy
