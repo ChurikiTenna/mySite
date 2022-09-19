@@ -6,9 +6,9 @@ components:
     change_theme: change theme
 pages:
   index:
-    title: アプリ開発[]ご相談ください[]
+    title: Tenna[]Churiki[]
   404:
-    title: page not found
+    title: ページが見つかりません。。
   blank:
     nav: blank
     title: blank page

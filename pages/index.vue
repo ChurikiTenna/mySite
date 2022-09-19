@@ -54,18 +54,18 @@ const tooltip = ref(false)
               }; --end-color: ${item.endColor}; --animation-name: anim-fg-${
                 i + 1
               }`"
-              class="animated-text-bg drop-shadow-xl text-5xl xl:text-8xl 2xl:text-9xl block font-black uppercase"
+              class="animated-text-bg drop-shadow-xl text-5xl block font-black uppercase"
             >
               <span class="animated-text-fg">{{ item.text }}</span>
             </span>
 
             <span
-              class="text-2xl xl:text-8xl 2xl:text-9xl block font-black uppercase"
+              class="text-2xl block font-black uppercase"
             >
               <span>iOS・Andoird・Webアプリ開発エンジニア</span>
             </span>
             <span
-              class="text-1xl xl:text-8xl 2xl:text-9xl block font-black uppercase"
+              class="text-1xl block font-black uppercase"
             >
               <span><br>作りたいアプリのイメージが固まっていなくても大丈夫です！大体の費用が知りたいなどでも、お気軽にご相談ください。</span>
             </span>
@@ -120,12 +120,12 @@ const tooltip = ref(false)
           <h1 class="text-center md:text-left">
             
             <span
-              class="text-2xl xl:text-8xl 2xl:text-9xl block font-black uppercase"
+              class="text-2xl block font-black uppercase"
             >
               <span>自己紹介</span>
             </span>
             <span
-              class="text-1xl xl:text-8xl 2xl:text-9xl block font-black uppercase"
+              class="text-1xl block font-black uppercase"
             >
               <span><br>生年月日：1999/03/09</span>
               <span><br>出身地：沖縄県</span>
@@ -136,7 +136,7 @@ const tooltip = ref(false)
 
             </span>
             <span
-              class="text-1xl xl:text-8xl 2xl:text-9xl"
+              class="text-1xl 2xl:text-9xl"
             >
               <span><br><br>フリーランスを始めてから２０個以上のiOSアプリ開発に関わらせていただきました。
                 <br>ほとんどのアプリはデザイン、開発、公開まで全て1人で行っております。チームでの開発経験もあります。
