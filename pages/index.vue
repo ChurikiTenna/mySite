@@ -108,12 +108,7 @@ const tooltip = ref(false)
       <PageSection class="flex-1 flex items-center">
 
         <div class="hidden md:flex flex-1 justify-center items-end relative">
-          <img class="fit-picture"
-          style="padding: 20%; border-radius: 50%"
-            src="assets/images/chicken.png"
-            alt="icon">
-          <!--<Gem class="absolute -top-64 -right-0" />-->
-            
+          <TennaAnimation></TennaAnimation>
         </div>
         
         <div class="flex-1 md:w-2/3 flex flex-col z-10">
@@ -136,13 +131,13 @@ const tooltip = ref(false)
 
             </span>
             <span
-              class="text-1xl 2xl:text-9xl"
+              class="text-1xl"
             >
               <span><br><br>フリーランスを始めてから２０個以上のiOSアプリ開発に関わらせていただきました。
                 <br>ほとんどのアプリはデザイン、開発、公開まで全て1人で行っております。チームでの開発経験もあります。
                 <br>ありがたいことに個人のお客さまから企業様まで、幅広いお客様にご好評をいただいています。
                 <br>2022年からは、AndroidとWebアプリもいくつか制作しています。
-                <br>実家で鶏を飼っているので鶏が好きです。
+                <br>実家で鶏を飼っているので、好きな動物は鶏です。
               </span>
             </span>
           </h1>
@@ -156,6 +151,7 @@ const tooltip = ref(false)
     </PageBody>
     
   </PageWrapper>
+
 </div>
 </template>
 

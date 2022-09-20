@@ -4,8 +4,8 @@
   // composable
   const { t } = useLang()
   const pageName = "minesew"
-  const privacyPolicyUrl = pageName+"/privacyPolicy"
-  const termOfUseUrl = pageName+"/termOfUse"
+  const privacyPolicyUrl = "privacyPolicy"
+  const termOfUseUrl = "termOfUse"
   // compiler macro
   definePageMeta({
     layout: 'page',
