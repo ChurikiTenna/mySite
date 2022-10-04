@@ -62,7 +62,7 @@ const tooltip = ref(false)
             <span
               class="text-2xl block font-black uppercase"
             >
-              <span>iOS・Andoird・Webアプリ開発エンジニア</span>
+              <span><br>iOSアプリ開発<br>Andoirdアプリ開発<br>Webアプリ開発</span>
             </span>
             <span
               class="text-1xl block font-black uppercase"
@@ -91,10 +91,8 @@ const tooltip = ref(false)
         <div class="hidden md:flex flex-1 justify-center items-end relative">
           <img class="fit-picture"
           style="padding: 20%; border-radius: 50%"
-            src="https://scontent-nrt1-1.xx.fbcdn.net/v/t39.30808-6/280031172_1048686382412599_7960801700504288944_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=wT_7KjHpSREAX8-Uq9D&tn=qvlTBAi2ulBbP4C3&_nc_ht=scontent-nrt1-1.xx&oh=00_AT9sW-sUW5D_ryQhBEMJ8GsCHndsIiaJZCY7sLd2t8RSZw&oe=632B5B8E"
+            src="https://firebasestorage.googleapis.com/v0/b/churiki-tenna.appspot.com/o/280031172_1048686382412599_7960801700504288944_n.jpg?alt=media&token=05ed5a80-0f59-4c56-9721-db1c42c6c620"
             alt="icon">
-          <!--<Gem class="absolute -top-64 -right-0" />-->
-            
         </div>
         
       </PageSection>
