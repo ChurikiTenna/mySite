@@ -11584,7 +11584,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nuxt-windicss@npm:^2.5.1":
+"nuxt-windicss@npm:^2.5.2":
   version: 2.5.2
   resolution: "nuxt-windicss@npm:2.5.2"
   dependencies:
@@ -11634,7 +11634,7 @@ __metadata:
     js-yaml: ^4.1.0
     lint-staged: ^13.0.3
     nuxt: "npm:nuxt3@3.0.0-rc.10-27718444.40d0907"
-    nuxt-windicss: ^2.5.1
+    nuxt-windicss: ^2.5.2
     pinia: ^2.0.18
     postcss: 8.4.14
     postcss-loader: ^7.0.0
