@@ -1,7 +1,7 @@
 {
-  "name": "nuxt3-awesome-starter",
+  "name": "tenna-churiki",
   "version": "0.1.0",
-  "description": "a Nuxt 3 starter template or boilerplate with a lot of useful features. Nuxt3 + Tailwindcss 3",
+  "description": "A website of Tenna Churiki",
   "repository": {
     "type": "git",
     "url": "git://github.com/viandwi24/nuxt3-awesome-starter"
@@ -21,10 +21,10 @@
     "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
     "lintfix": "eslint --fix --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
     "clean": "rm -rf .nuxt dist .output",
-    "generate:locales": "node tools/translator.js ./locales en.yml"
+    "generate:locales": "node tools/translator.js ./locales en.yml",
+    "clearCache": "rm -rf node_modules/.cache/hard-source/"
   },
   "devDependencies": {
-    "@volar-plugins/vetur": "latest",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@headlessui/vue": "1.6.5",
@@ -36,6 +36,7 @@
     "@nuxtjs/eslint-module": "3.1.0",
     "@nuxtjs/svg": "^0.4.0",
     "@pinia/nuxt": "0.4.2",
+    "@volar-plugins/vetur": "latest",
     "@vueuse/nuxt": "9.2.0",
     "electron-builder": "^23.3.3",
     "eslint": "^8.23.1",
