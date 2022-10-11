@@ -24,6 +24,7 @@
     "generate:locales": "node tools/translator.js ./locales en.yml"
   },
   "devDependencies": {
+    "@volar-plugins/vetur": "latest",
     "@commitlint/cli": "^17.0.3",
     "@commitlint/config-conventional": "^17.0.3",
     "@headlessui/vue": "1.6.5",

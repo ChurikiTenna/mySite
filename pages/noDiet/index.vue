@@ -4,8 +4,6 @@
   // composable
   const { t } = useLang()
   const pageName = "やせなくていい！"
-  const privacyPolicyUrl = "privacyPolicy"
-  const termOfUseUrl = "termOfUse"
   // compiler macro
   definePageMeta({
     layout: 'page',

@@ -1,6 +1,6 @@
 
 <template>
-  <def class="relative" style="width: 100px; height: 100px;">
+  <div class="relative" style="width: 100px; height: 100px;">
           <img class="fit-picture armWave"
             style="width: 80px; position: absolute;"
             src="assets/images/rightarm.png"
@@ -13,7 +13,7 @@
             style="width: 80px; position: absolute; right: 16px; top: -69px"
             src="assets/images/face.png"
             alt="icon">
-        </def>
+  </div>
 </template>
 
 <style>
